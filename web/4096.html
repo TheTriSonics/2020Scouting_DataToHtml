@@ -1,0 +1,190 @@
+<html>
+<head>
+<link rel='stylesheet' type='text/css' href="css/jquery.dataTables.min.css" />
+<link rel='stylesheet' type='text/css' href="css/buttons.dataTables.min.css" />
+
+<script type="text/javascript" src="js/jquery.js"> </script>
+<script type="text/javascript" src="js/jquery.dataTables.min.js"> </script>
+<script type="text/javascript" src="js/dt.js"> </script>
+</head>
+
+<body>
+<table border="0" class="dataframe display" id="example">
+  <thead>
+    <tr style="text-align: center;">
+      <th>hab_lvl</th>
+      <th>hab_line</th>
+      <th>SaHR</th>
+      <th>SaHS</th>
+      <th>SaCR</th>
+      <th>SaCS</th>
+      <th>TeHR</th>
+      <th>TeHS</th>
+      <th>TeCR</th>
+      <th>TeCS</th>
+      <th>rkt_lvl</th>
+      <th>hatch_PU</th>
+      <th>defense</th>
+      <th>climb</th>
+      <th>position</th>
+      <th>name</th>
+      <th>comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align=center>2</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>Left</td>
+      <td align=center>Josie</td>
+      <td align=center>slow climb.</td>
+    </tr>
+    <tr>
+      <td align=center>2</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>4</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>Left</td>
+      <td align=center>Jake</td>
+      <td align=center></td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>4</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>Center</td>
+      <td align=center>Evan</td>
+      <td align=center>focused on cargo</td>
+    </tr>
+    <tr>
+      <td align=center>2</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>2</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>Left</td>
+      <td align=center>Jaden</td>
+      <td align=center></td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>Center</td>
+      <td align=center>Josie</td>
+      <td align=center></td>
+    </tr>
+    <tr>
+      <td align=center>2</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>2</td>
+      <td align=center>2</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>Left</td>
+      <td align=center>Colton</td>
+      <td align=center></td>
+    </tr>
+    <tr>
+      <td align=center>2</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>2</td>
+      <td align=center>Right</td>
+      <td align=center>Tyler</td>
+      <td align=center>bucket system for cargo</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>Left</td>
+      <td align=center>Daniel</td>
+      <td align=center></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

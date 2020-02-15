@@ -1,0 +1,247 @@
+<html>
+<head>
+<link rel='stylesheet' type='text/css' href="css/jquery.dataTables.min.css" />
+<link rel='stylesheet' type='text/css' href="css/buttons.dataTables.min.css" />
+
+<script type="text/javascript" src="js/jquery.js"> </script>
+<script type="text/javascript" src="js/jquery.dataTables.min.js"> </script>
+<script type="text/javascript" src="js/dt.js"> </script>
+</head>
+
+<body>
+<table border="0" class="dataframe display" id="example">
+  <thead>
+    <tr style="text-align: center;">
+      <th>hab_lvl</th>
+      <th>hab_line</th>
+      <th>SaHR</th>
+      <th>SaHS</th>
+      <th>SaCR</th>
+      <th>SaCS</th>
+      <th>TeHR</th>
+      <th>TeHS</th>
+      <th>TeCR</th>
+      <th>TeCS</th>
+      <th>rkt_lvl</th>
+      <th>hatch_PU</th>
+      <th>defense</th>
+      <th>climb</th>
+      <th>position</th>
+      <th>name</th>
+      <th>comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>Right</td>
+      <td align=center>Josie</td>
+      <td align=center></td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>5</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>Left</td>
+      <td align=center>Tyler</td>
+      <td align=center>Finished a rocket with teamate. Good with hatches</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>Center</td>
+      <td align=center>Alexei</td>
+      <td align=center>lost connection twice. came back for end game.</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>7</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>Left</td>
+      <td align=center>Katina</td>
+      <td align=center>attempted to get on level two</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>Right</td>
+      <td align=center>Alyssa</td>
+      <td align=center>Complete rocket</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>2</td>
+      <td align=center>2</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>Right</td>
+      <td align=center>Alyssa</td>
+      <td align=center>Interestingclimb</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>4</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>Center</td>
+      <td align=center>Carl</td>
+      <td align=center>fell over trying to climb</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>Left</td>
+      <td align=center>Celeste</td>
+      <td align=center>Places hatches halfway on.  Good with cargo.</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>Center</td>
+      <td align=center>Evan</td>
+      <td align=center>dropped a few hatches, okay climb</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>6</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>Center</td>
+      <td align=center>Celeste</td>
+      <td align=center></td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>Center</td>
+      <td align=center>Carl</td>
+      <td align=center></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<html>
+<head>
+<link rel='stylesheet' type='text/css' href="css/jquery.dataTables.min.css" />
+<link rel='stylesheet' type='text/css' href="css/buttons.dataTables.min.css" />
+
+<script type="text/javascript" src="js/jquery.js"> </script>
+<script type="text/javascript" src="js/jquery.dataTables.min.js"> </script>
+<script type="text/javascript" src="js/dt.js"> </script>
+</head>
+
+<body>
+<table border="0" class="dataframe display" id="example">
+  <thead>
+    <tr style="text-align: center;">
+      <th>hab_lvl</th>
+      <th>hab_line</th>
+      <th>SaHR</th>
+      <th>SaHS</th>
+      <th>SaCR</th>
+      <th>SaCS</th>
+      <th>TeHR</th>
+      <th>TeHS</th>
+      <th>TeCR</th>
+      <th>TeCS</th>
+      <th>rkt_lvl</th>
+      <th>hatch_PU</th>
+      <th>defense</th>
+      <th>climb</th>
+      <th>position</th>
+      <th>name</th>
+      <th>comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>Right</td>
+      <td align=center>Jaden</td>
+      <td align=center>missed scoring a cargo piece 4 times before giving up</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>Left</td>
+      <td align=center>Valerie</td>
+      <td align=center></td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>1</td>
+      <td align=center>2</td>
+      <td align=center>3</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>Center</td>
+      <td align=center>McKinley</td>
+      <td align=center></td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>Center</td>
+      <td align=center>Mason</td>
+      <td align=center></td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>Center</td>
+      <td align=center>McKinley</td>
+      <td align=center>Great robot, just had really good defense played on them</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>Center</td>
+      <td align=center>Josie</td>
+      <td align=center>Disconnected mid-match and didn't reconnect</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>Center</td>
+      <td align=center>Carl</td>
+      <td align=center>died in endgame, but recovered in time to get hab 1</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>Center</td>
+      <td align=center>Weston</td>
+      <td align=center></td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>3</td>
+      <td align=center>1</td>
+      <td align=center>3</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>Center</td>
+      <td align=center>Logan</td>
+      <td align=center>couldn't get back in time</td>
+    </tr>
+    <tr>
+      <td align=center>1</td>
+      <td align=center>1</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>3</td>
+      <td align=center>0</td>
+      <td align=center>2</td>
+      <td align=center>2</td>
+      <td align=center>2</td>
+      <td align=center>0</td>
+      <td align=center>0</td>
+      <td align=center>1</td>
+      <td align=center>Center</td>
+      <td align=center>Colton</td>
+      <td align=center></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
